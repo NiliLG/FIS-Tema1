@@ -1,0 +1,65 @@
+¿Qué es software?: Es un conjunto de programas y la documentación asociada que se desarrollan para un cliente en particular o para un mercado general.
+Atributos del buen software: El software debe ser funcional, confiable, utilizable y sostenible.
+¿Qué es ingeniería de software?: Es la disciplina que abarca todos los aspectos relacionados con la producción y mantenimiento de software, desde la especificación hasta su desarrollo y evolución.
+Actividades fundamentales de la ingeniería de software: Especificación, desarrollo, validación y evolución.
+Diferencia entre ingeniería de software y ciencias de la computación: La ingeniería de software se enfoca en la aplicación práctica del desarrollo y distribución de software, mientras que las ciencias de la computación se enfocan más en la teoría.
+Diferencia entre ingeniería de software e ingeniería de sistemas: La ingeniería de sistemas aborda el desarrollo de sistemas completos, incluyendo hardware y software, mientras que la ingeniería de software se centra en el desarrollo de componentes de software.
+Retos principales: Entre los principales retos se encuentran la creciente complejidad de los sistemas, la presión por cumplir con tiempos de entrega y la necesidad de software confiable.
+Costos de la ingeniería de software: Aproximadamente el 60% de los costos se destinan al desarrollo, mientras que el 40% se destina a las pruebas. En sistemas a medida, los costos de evolución suelen ser más altos que los de desarrollo inicial.
+Mejores métodos y técnicas: No existe una técnica que sea adecuada para todos los proyectos. Juegos, por ejemplo, requieren prototipos, mientras que los sistemas críticos requieren especificaciones detalladas.
+Impacto de la Web en la ingeniería de software: La Web ha promovido el desarrollo de sistemas distribuidos, ha facilitado la reutilización de componentes y ha llevado a avances significativos en lenguajes y metodologías de programación.
+
+
+Modelos de Proceso
+Los modelos de proceso prescriptivo proporcionan una secuencia estructurada para desarrollar software, estableciendo una guía clara a seguir en cada etapa del proyecto.
+
+Modelo en Cascada: Es uno de los primeros enfoques que se desarrollaron. Se sigue una secuencia de fases de desarrollo de manera lineal. Las fases incluyen:
+Recolección de Requisitos
+Diseño del Sistema y Software
+Implementación
+Pruebas
+Mantenimiento
+Cada fase debe completarse antes de iniciar la siguiente, lo que hace que este modelo sea rígido. No es adecuado para proyectos en los que los requisitos cambian con frecuencia.
+
+Modelo Evolutivo: En este enfoque, el sistema se construye y mejora de forma incremental. Se desarrolla una primera versión rápida, que luego se va refinando de acuerdo con la retroalimentación de los usuarios. Es ideal para proyectos donde no todos los requisitos están claros desde el inicio o cuando se espera que evolucionen con el tiempo.
+
+Modelo Espiral: Combina elementos del modelo en cascada y del prototipado, y se enfoca en la evaluación de riesgos. El proceso se divide en ciclos, donde cada ciclo incluye:
+Planificación
+Análisis de Riesgos
+Ingeniería
+Evaluación del Cliente
+En cada ciclo se mejora el producto, permitiendo un proceso más controlado, especialmente en proyectos con alto riesgo. Es útil cuando los requisitos no son bien comprendidos o pueden cambiar durante el desarrollo.
+
+Modelo de Prototipado: Se enfoca en construir rápidamente un prototipo del software para obtener retroalimentación rápida de los usuarios, y luego usar esa información para perfeccionar los requisitos. Este enfoque es ideal para proyectos donde la interfaz de usuario o la experiencia del cliente es crítica.
+
+Modelo Ágil: Los modelos ágiles se centran en la entrega rápida y continua de software en ciclos cortos (llamados "sprints"), con un enfoque en la colaboración y la capacidad de adaptarse a cambios. Metodologías como Scrum y Extreme Programming (XP) son ejemplos de modelos ágiles.
+
+
+Estructura general para la ingeniería de software
+● Comunicación: Se busca entender los objetivos del proyecto y reunir los
+requerimientos que definan las características y funciones del software.
+● Planeación: Crea un “mapa” (plan del proyecto) que define tareas técnicas, riesgos,
+recursos necesarios, productos esperados y una programación de actividades.
+● Modelado: Crea y refina un “bosquejo” del software para entender mejor los
+requerimientos y cómo resolver el problema.
+● Construcción: Combina la generación de código y las pruebas necesarias para
+descubrir errores.
+● Despliegue: Entrega el software al consumidor para su evaluación y
+retroalimentación.
+
+
+Las herramientas CASE (Computer-Aided Software Engineering) son soluciones que facilitan el desarrollo de software, apoyando en varias fases del ciclo de vida del software.
+
+Definición: Las herramientas CASE implementan métodos y soluciones computarizadas para automatizar tareas del desarrollo de software, mejorando la eficiencia y precisión en el proceso.
+Funcionalidades:
+Modelado: Facilitan la creación de modelos y diagramas (e.g., diagramas de flujo) que representan la estructura y comportamiento del software.
+Generación de Código: Permiten la creación automática de fragmentos de código a partir de especificaciones o plantillas predefinidas.
+Gestión de Proyectos: Ayudan a organizar y gestionar los requisitos y el progreso del proyecto, incluyendo tareas como la asignación de recursos y el seguimiento del tiempo.
+Clasificación:
+Upper CASE: Herramientas enfocadas en las primeras fases del ciclo de vida del software, como análisis y diseño.
+Lower CASE: Se enfocan en la implementación, pruebas y mantenimiento del software.
+Integrated CASE: Herramientas que abarcan todo el ciclo de vida del software, integrando funcionalidades tanto de Upper como de Lower CASE.
+Alternativas:
+Entornos de Desarrollo Integrado (IDE): Herramientas como Visual Studio ofrecen soporte integral para escribir, probar y depurar código.
+Metodologías Ágiles: Herramientas que soportan metodologías ágiles como Scrum, ayudando en la gestión iterativa del desarrollo.
+DevOps y APIs: Soluciones como Docker permiten la integración y despliegue continuo, mientras que REST o SOAP facilitan la comunicación entre servicios y sistemas.
